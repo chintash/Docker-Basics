@@ -66,8 +66,8 @@ $ docker-compose pause web        ## Pause single container
 
 This will start paused containers for the services defined in config file.
 ```
-$ docker-compose pause            ## Start all paused containers
-$ docker-compose pause web        ## Start single paused container
+$ docker-compose unpause            ## Start all paused containers
+$ docker-compose unpause web        ## Start single paused container
 ```
 ## rm 
 
